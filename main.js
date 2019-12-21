@@ -244,10 +244,10 @@ var nameMap = {
  */
 function loadAndRenderData(wine) {
     var fp = wine + '.json';
-    var bubbleData = 'assets/bubble_charts/' + fp;
-    var mapData = 'assets/map_charts/' + fp;
-    var barData = 'assets/bar_charts/' + fp;
-    var lineData = 'assets/line_charts/' + fp;
+    var bubbleData = '/assets/bubble_charts/' + fp;
+    var mapData = '/assets/map_charts/' + fp;
+    var barData = '/assets/bar_charts/' + fp;
+    var lineData = '/assets/line_charts/' + fp;
     loadData(bubbleData, renderBubbleChart);
     loadData(mapData, renderMapChart);
     loadData(barData, renderBarChart);
